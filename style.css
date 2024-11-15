@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+.nav-b{
+    display: none;
+}
+
+.navbar{
+    padding-left: 100px !important;
+    padding-right: 100px !important; 
+    height: 90px !important;
+  
+    z-index: 11111111;
+    width: 100% !important;
+}
+.navbar li{
+    list-style: none;
+    position: relative;
+}
+.navbar li a{
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+}
+
+
+ul.dropdown{
+    position: absolute;
+    width: 160px;
+    top: 70px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    opacity: 0;
+    transform: translateY(50px);
+    z-index: -1111111;
+    transition: all .5s ease-in;
+box-shadow: 0 0 5px;
+    background-color: white;
+}
+.b-red{
+    border: 1px solid red;
+}
+
+.navbar li:hover ul.dropdown{
+    opacity: 1;
+    transition: all .5s ease-in;
+    transform: translateY(0px);
+z-index: 1;
+
+}
+
+.navy:hover{
+color: rgb(40, 189, 248) !important;
+}
+
+
+
+.nav-b2:hover{
+    background-color: rgb(0, 75, 104) !important;
+    transition: .5s all linear !important;
+
+    }
+    
+.home-but:hover{
+    background-color: rgb(0, 181, 253) !important;
+    transition: .5s all linear !important;
+    color: white !important;
+    border: none;
+
+    }
+    .about-but:hover{
+        background-color: rgb(0, 181, 253) !important;
+        transition: .5s all linear !important;
+        color: white !important;
+        border: none;
+    
+        }
+
+
+    .home-right{
+        min-height: 100vh !important;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+    .home-right img{
+        width: 95% !important;
+        height: auto !important;
+        animation: home-anime 15s infinite;
+    }
+
+
+    @keyframes home-anime{
+
+        0%{
+            transform: translateY(0);
+        }
+
+        50%{
+            transform: translateY(50px);
+        }
+
+        100%{
+            transform: translateY(0);
+        }
+        
+    }
+    .brand{
+        position: relative;
+        transition: all .5s linear;
+     
+        display: flex;
+        align-items: center;
+
+        justify-content: center;
+    }
+
+   
+
+    .brand::before{
+        width: 100% !important;
+       height: 100% !important;
+left: 0;
+position: absolute;
+        content: '';
+        background-color: #deffffa5;
+        transition: all .5s linear;
+    }
+    .brand:hover::before{
+        background-color: rgba(255, 255, 255, 0);
+        transition: all .5s linear;
+    }
+
+
+
+    .ab-main-con{
+     
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            height: 20vh !important;
+    }
+    .ab-con{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+gap: 20px;
+    }
+    .ab-con span{
+        font-size: 30px;
+       
+
+    }
+
+
+    .about-left{
+        min-height: 60vh;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+    }
+
+    .about-right{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about-card{
+        min-height: 30vh;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+    flex-direction: column;
+    /* gap: 10px; */
+    }
+
+
+    .trophy-left{
+        min-height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      
+    }
+
+
+    .t-card{
+        display: flex;
+        align-items: center;
+        justify-content:start;
+        
+     
+    }
+
+
+    .team-card{
+        min-height: 60vh;
+    }
+
+    .last-but:hover{
+       
+            background-color: rgb(0, 75, 104) !important;
+            transition: .5s all linear !important;
+           
+    }
+
+    

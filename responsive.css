@@ -1,0 +1,223 @@
+
+@media only screen and (max-width:920px) {
+
+
+   .navbar{
+    height: auto !important;
+   }
+    .home-right {
+        margin-top: 0 !important;
+        min-height: 60vh !important;
+        
+    }
+    .home-right img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .home-left {
+        
+    }
+    .home-left span{
+        font-size: 8vw !important;
+       
+
+    }
+
+    .about-left{
+        min-height: auto;
+    }
+
+    .about-card{
+        padding-right: 10px;
+        min-height: 20vh  !important;
+    }
+
+
+    .nav-b2{
+        margin-left: 0px !important;
+    }
+
+    .about-right{
+        /* gap: 20px !important; */
+        
+        padding-left: 15px !important;
+    }
+
+    .t-card{
+        padding-left: 10px;
+    }
+
+    .team-card{
+        min-height: 48vh;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width:620px) {
+
+
+    .navbar {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        height: auto !important;
+        position: fixed;
+    }
+
+    .nav-b2 {
+        display: none;
+    }
+
+    .home-right {
+        min-height: 70vh !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px !important;
+    }
+
+    .home-right img {
+        width: 95%;
+        height: auto;
+        animation: home-anime 12s infinite;
+    }
+
+    .home-left {
+        gap: 5px;
+        padding-bottom: 20px;
+    }
+
+
+
+    @keyframes home-anime {
+
+        0% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(25px);
+        }
+
+        100% {
+            transform: translateY(0);
+        }
+
+    }
+
+    .home-left span {
+        font-size: 30px !important;
+    }
+
+    .home-left p {
+        font-size: 17px !important;
+    }
+
+
+
+    .brand {
+        position: relative;
+        transition: all .5s linear;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+
+    }
+
+
+    .brand img {
+        width: auto;
+        height: 45px !important;
+    }
+
+    .ab-main-con {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+        padding-top: 100px !important;
+        padding-bottom: 40px;
+        height: 20vh !important;
+
+    }
+
+    .ab-con {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        gap: 20px;
+    }
+
+    .ab-con span {
+        font-size: 30px;
+
+
+    }
+
+    .para-con p {
+        font-size: 15px !important;
+
+
+    }
+
+    .about-left {
+        padding-top: 20px !important;
+        min-height: 50vh !important;
+        padding-bottom: 30px;
+    }
+
+    .about-left span {
+        font-size: 35px !important;
+    }
+
+    .about-left p {
+        font-size: 15px !important;
+    }
+
+
+    .about-right {
+        gap: 20px;
+    }
+
+
+    .name-mail {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subject-last {
+        padding-right: 50px !important;
+        padding-left: 50px !important;
+    }
+
+    .message-last {
+        columns: 30 !important;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
